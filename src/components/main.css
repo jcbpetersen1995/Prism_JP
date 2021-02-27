@@ -1,0 +1,23 @@
+body {
+    /* background: linear-gradient(rgba(#F9774C, .75), rgba(#802A0C, .85)); */
+    background-image: linear-gradient(0deg, rgba(112, 66, 20, 0.397), rgba(255, 123, 0, 0.2)),
+    url('./images/landscapePalm.jpg');
+    backdrop-filter: blur(5px);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbarLogo {
+    height: 3%;
+    width: 3%;
+}
+.nav-css {
+    background-color: rgb(27, 27, 27);
+}
+.myName-nav {
+    color: white;
+    position: absolute;
+    right: 15px;
+    white-space: nowrap;
+    font-family: 'Rubik', sans-serif;
+}
