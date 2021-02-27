@@ -14,7 +14,7 @@ export default class NavbarComp extends Component {
   render() {
     return (
       <Navbar className="nav-css">
-        <Navbar.Brand href="#home">
+        <Navbar.Brand>
           <img src={logo} className="navbarLogo" alt="logo" />
         </Navbar.Brand>
         <Nav className="myName-nav">JAKE PETERSEN</Nav>

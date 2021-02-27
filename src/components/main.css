@@ -1,23 +1,96 @@
 body {
-    /* background: linear-gradient(rgba(#F9774C, .75), rgba(#802A0C, .85)); */
-    background-image: linear-gradient(0deg, rgba(112, 66, 20, 0.397), rgba(255, 123, 0, 0.2)),
-    url('./images/landscapePalm.jpg');
-    backdrop-filter: blur(5px);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* background: linear-gradient(rgba(#F9774C, .75), rgba(#802A0C, .85)); */
+  background-image: linear-gradient(
+      0deg,
+      rgba(112, 66, 20, 0.397),
+      rgba(255, 123, 0, 0.2)
+    ),
+    url("./images/landscapePalm.jpg");
+  backdrop-filter: blur(5px);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .navbarLogo {
-    height: 3%;
-    width: 3%;
+  height: 3%;
+  width: 3%;
 }
 .nav-css {
-    background-color: rgb(27, 27, 27);
+  background-color: rgb(27, 27, 27);
 }
 .myName-nav {
-    color: white;
-    position: absolute;
-    right: 15px;
-    white-space: nowrap;
-    font-family: 'Rubik', sans-serif;
+  color: white;
+  position: absolute;
+  right: 15px;
+  white-space: nowrap;
+  font-family: "Rubik", sans-serif;
+}
+.rotate {
+  transform: rotate(-90deg);
+}
+.introButton-css a {
+  color: white;
+  position: absolute;
+  top: -600px;
+  left: -25px;
+  font-size: 80px;
+  transition: left transform 0.2s;
+  font-family: "Rubik", sans-serif;
+}
+.introButton-css a:hover {
+  left: 50px;
+  transform: scale(1.35);
+  text-decoration: none;
+  color: #d36415;
+}
+.aboutMeButton-css a {
+  color: white;
+  position: absolute;
+  top: -400px;
+  left: -12px;
+  font-size: 80px;
+  transition: left transform 0.2s;
+  font-family: "Rubik", sans-serif;
+}
+.aboutMeButton-css a:hover {
+  left: 50px;
+  transform: scale(1.35);
+  text-decoration: none;
+  color: #d36415;
+}
+.careerButton-css a {
+  color: white;
+  position: absolute;
+  top: -200px;
+  left: -12px;
+  font-size: 80px;
+  transition: left transform 0.2s;
+  font-family: "Rubik", sans-serif;
+}
+.careerButton-css a:hover {
+  left: 50px;
+  transform: scale(1.35);
+  text-decoration: none;
+  color: #d36415;
+}
+.portfolioButton-css a {
+  color: white;
+  position: absolute;
+  top: 0px;
+  left: -12px;
+  font-size: 80px;
+  transition: left transform 0.2s;
+  font-family: "Rubik", sans-serif;
+}
+.portfolioButton-css a:hover {
+  left: 50px;
+  transform: scale(1.35);
+  text-decoration: none;
+  color: #d36415;
+}
+.linkedInBadge-css {
+  position: absolute;
+  top: 150px;
+  right: 150px;
+  border: 5px #d36415 solid;
 }
